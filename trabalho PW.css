@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: pink;
+}
+
+.color-wall {
+  width: 400px;
+  height: 200px;
+  border: 1px solid #000;
+}
+
+.color-buttons {
+  margin-top: 20px;
+}
+
+.color-buttons button {
+  margin-right: 10px;
+}
+@media(max-width:720px){
+  function{
+    padding: 10px;
+  }
+}
